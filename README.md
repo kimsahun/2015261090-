@@ -434,3 +434,57 @@ end code block.
 - - -
 
 ---------------------------------------
+## 2.6. 링크
+* 참조링크
+
+```
+[link keyword][id]
+[id]: URL "Optional Title here"
+
+Link: [naver][naverlink]
+[naverlink]: https://www.naver.com "Go naver"
+```
+
+Link: [naver][naverlink]
+[naverlink]: https://www.naver.com/ "Go naver"
+
+* 인라인 링크
+```
+syntax: [Title](link)
+```
+Link: [naver](https://www.naver.com/, "naver link")
+
+* 자동연결
+```
+<http://example.com/>
+<address@example.com>
+```
+
+<http://example.com/>
+<address@example.com>
+
+## 2.7. 강조
+```
+*single asterisks*
+_single underscores_
+**double asterisks**
+__double underscores__
+++underline++
+~~cancelline~~
+```
+*single asterisks*
+_single underscores_
+**double asterisks**
+__double underscores__
+++underline++
+~~cancelline~~
+
+## 2.8. 이미지
+```
+![Alt text](/path/to/img.jpg)
+![Alt text](/path/to/img.jpg "Optional title")
+```
+![](https://goo.gl/images/w2tijD)
+![](https://goo.gl/images/w2tijD)
+
+사이즈 조절 기능은 없기 때문에 ```<img width="" height=""></img>```를 이용한다.
