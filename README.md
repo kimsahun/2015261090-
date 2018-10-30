@@ -479,10 +479,8 @@ __double underscores__
 
 ## 이미지
 
-![Alt text](/path/to/img.jpg)
-![Alt text](/path/to/img.jpg "Optional title")
+!![대체 텍스트(alternative text)를 입력하세요!](http://www.gstatic.com/webp/gallery/5.jpg "링크 설명(title)을 작성하세요.")
 
-![]()
-![]()
+![Kayak][logo]
 
-사이즈 조절 기능은 없기 때문에 ```<img width="" height=""></img>```를 이용한다.
+[logo]: http://www.gstatic.com/webp/gallery/2.jpg "To go kayaking."
