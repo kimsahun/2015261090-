@@ -484,7 +484,7 @@ __double underscores__
 ![Alt text](/path/to/img.jpg)
 ![Alt text](/path/to/img.jpg "Optional title")
 ```
-!(https://goo.gl/images/wWXfWR)
-!(https://goo.gl/images/wWXfWR)
+![](github-logo-in-a-rounded-square_749193)
+![](github-logo-in-a-rounded-square_749193)
 
 사이즈 조절 기능은 없기 때문에 ```<img width="" height=""></img>```를 이용한다.
